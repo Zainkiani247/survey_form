@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve our platform</p>
+    <form>
+        <label for="name">Name
+            <input type="text"
+            placeholder="Enter your name"
+            required>
+        </label>
+        <label for="email">Email
+            <input type="email"
+            placeholder="Enter your email"
+            required>
+        </label>
+        <label for="age">Age (Optional)
+            <input type="number"
+            placeholder="Age">
+        </label>
+        <label for="role">Which option best describes your current role?
+            <select name="role" id="role">
+                <option value="select current role">Select current role</option>
+                <option value="student">Student</option>
+                <option value="full time job">Full time job</option>
+                <option value="full time learner">Full time learner</option>
+                <option value="prefer not to say">Prefer not to say</option>
+                <option value="other">Other</option>
+            </select>
+        </label>
+        <label for="recommend">Would you recommend freeCodeCamp to a friend?
+            <input type="radio"> Definitely    
+            <input type="radio"> Maybe    
+            <input type="radio"> Not Sure    
+        </label>
+        <label for="fav-feature">What is your favorite feature of freeCodeCamp?
+            <select name="fav-feature" id="fav-feature">
+                <option value="1">Select an option</option>
+                <option value="2">Challanges</option>
+                <option value="3">Projects</option>
+                <option value="4">Community</option>
+                <option value="5">Open Source</option>
+            </select>
+        </label>
+        
+    </form>
+</body>
+</html>
